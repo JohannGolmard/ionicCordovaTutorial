@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Coordonnées GPS</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <h1>Latitude</h1>
+  <h3>{{ latitude }}</h3>
+
+  <h1>Longitude</h1>
+  <h3>{{ longitude }}</h3>
+
+  <ion-button (click) ="refresh()" >Rafraichir la position</ion-button>
+</ion-content>
